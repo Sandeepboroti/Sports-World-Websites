@@ -1,0 +1,182 @@
+.one{
+   display: flex;
+}
+
+.container{
+   border-style:none;
+   background-color: rgb(44, 85, 156);
+}
+
+.logo1{
+   margin: auto;
+   width: 1%;
+}
+
+.logo2{
+   margin-left: 570px;
+}
+
+div.one{
+    background-color: rgb(44, 85, 156);
+}
+
+.inf{
+   display: flex;
+}
+
+.two{
+   display: flex;
+   margin-top: 35px;
+   margin-right: 17px;
+   /* border-radius: 15px; */
+}
+.three{
+   margin-top: 37px;
+   margin-right: 13px;
+   /* border-radius: 15px; */
+}
+.four{
+   margin-top: 28px;
+   margin-right: 15px;
+   /* border-radius: 15px; */
+}
+.five{
+   margin-top: 24px;
+   margin-right: 155px;
+   /* border-radius: 15px; */
+}
+li {
+   /* list-style: none; */
+   display: inline-block;
+   margin-left: 35px;
+   padding: 10px;
+}
+nav{
+   text-align: center;
+}
+ul li a{
+   text-decoration: none;
+   color: rgb(37, 147, 147);
+   font-size: 23px;
+}
+.saa{
+   margin-left:660px;
+   margin-right: 18px;
+   margin-bottom: 15px;
+}
+.sab{
+   margin-right: 15px;
+   margin-top: 3px;
+}
+.sac{
+   margin-right: 13px;
+   margin-bottom: 15px;
+   margin-top: -07px;
+}
+.sad{
+   margin-right: 15px;
+   margin-top: -07px;
+
+}
+.nav-one{
+   /* background-color: blue; */
+   margin-left: 480px;
+}
+.nav-one.active{
+   background-color:  rgb(44, 85, 156);
+}
+.nav-one.active a{
+   color:  rgb(236, 236, 232); 
+}
+
+.text{
+   text-transform: inherit;
+   color: rgb(70, 103, 222);
+   text-align: center;
+   font-family:SeoulHangang;
+   font-size: 25px;
+   font-weight: 700;
+   font-style: italic;
+   padding: 100px 0 50px;
+   line-height: normal;
+   margin: 0;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.copyrights{
+   text-align: center;
+   color: beige;
+   font-size: 17px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(43, 12, 145);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+ h1 {
+    font-weight: 700;
+    text-align: center;
+    color: #4365d3;
+    margin: 0;
+    padding: 40px 0 40px 0;
+    font-size: 40px;
+    /* font-style: italic; */
+    line-height: normal;
+    font-family:SeoulHangang;
+    font-style: italic;
+}
+
+.why_chose{
+   font-weight: 300;
+   font-size: 25px;
+   margin: 0 50px 50px 320px;
+   color: blue;
+   /* -webkit-text-fill-color: blue; */
+   font-family:SeoulHangang;
+   line-height: normal;
+   font-style: italic;
+}
+.why_chose li{
+   position: relative;
+   padding-left: 30px;
+   
+}
+.why_chose li::before{
+   background-image:url("images/ballicon1.png");
+   content: "";
+   width: 20px;
+   height: 20px;
+   position: absolute;
+   left: 0;
+   top: 15px;
+   background-repeat: no-repeat;
+   background-size: contain;
+   /* background-position: center; */
+}
+
+.flex{
+   display: flex;
+}

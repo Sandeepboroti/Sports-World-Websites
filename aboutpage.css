@@ -1,0 +1,142 @@
+ .centre{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ } 
+ .one{
+   display: flex;
+}
+
+.container{
+   border-style:none;
+   background-color:  rgb(44, 85, 156);
+}
+   
+.logo1{
+   margin: auto;
+   width: 1%;
+}
+
+div.one{
+    background-color: rgb(44, 85, 156);
+}
+.inf{
+   display: flex;
+}
+.two{
+   display: flex;
+   margin-top: 35px;
+   margin-right: 17px;
+   border-radius: 15px;
+}
+.three{
+   margin-top: 37px;
+   margin-right: 13px;
+   border-radius: 15px;
+}
+.four{
+   margin-top: 28px;
+   margin-right: 15px;
+   border-radius: 15px;
+}
+.five{
+   margin-top: 24px;
+   margin-right: 155px;
+   border-radius: 15px;
+}
+ul li {
+   list-style: none;
+   display: inline-block;
+   margin-left: 35px;
+   padding: 10px;
+}
+nav{
+   text-align: center;
+}
+ul li a{
+   text-decoration: none;
+   color: rgb(37, 147, 147);
+   font-size: 23px;
+}
+.nav-one{
+   /* background-color: blue; */
+   margin-left: 480px;
+}
+
+.nav-two.active{
+   background-color:  rgb(44, 85, 156);
+}
+.nav-two.active a{
+   color:  rgb(236, 236, 232); 
+}
+.logo2{
+   margin-left: 570px;
+}
+.saa{
+   margin-left:660px;
+   margin-right: 18px;
+   margin-bottom: 15px;
+}
+.sab{
+   margin-right: 15px;
+   margin-top: 3px;
+}
+.sac{
+   margin-right: 13px;
+   margin-bottom: 15px;
+   margin-top: -07px;
+}
+.sad{
+   margin-right: 15px;
+   margin-top: -07px;
+}
+
+.copyrights{
+   text-align: center;
+   color: beige;
+   font-size: 17px;
+}
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: rgb(43, 12, 145);
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.about{
+   margin:0 105px;
+   font-size: 25px;   
+   font-family:SeoulHangang;
+   font-style: italic;
+   /* margin: 0; */
+   padding: 10px;
+}
+
+h4{
+   text-transform: inherit;
+   color: rgb(70, 103, 222);
+   text-align: center;
+   font-family:SeoulHangang;
+   font-size: 25px;
+   font-weight: 700;
+   font-style: italic;
+   padding: 100px 0 50px;
+   line-height: normal;
+   margin: 0;
+}
